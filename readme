@@ -1,0 +1,6 @@
+to get kotlin working with rcp
+open build.properties and add bin to the list of source directories:
+source.. = src/,\
+		bin/
+
+this gets the kotlin class into the plugin jar
