@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="rcp-kernai-kotlin" id="rcp-kernai-kotlin.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.1" useFeatures="false" includeLaunchers="true">
+<product name="rcp-kernai-kotlin" uid="com.parinherm.kernai" id="rcp-kernai-kotlin.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.1" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
 
    <launcherArgs>
       <programArgs>-clearPersistedState
+-consoleLog
       </programArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>

@@ -76,7 +76,7 @@ class KotlinPart {
 		val root = Composite(parent, SWT.NONE)
 
  		val txtInput: Text = Text(root, SWT.BORDER)
-		txtInput.addModifyListener { e -> part.setDirty(true) }
+		txtInput.addModifyListener { _ -> part.setDirty(true) }
 		val cosVal = cos(90.0)
 		txtInput.setText(cosVal.toString() + arrayOfMine[0])
 		
