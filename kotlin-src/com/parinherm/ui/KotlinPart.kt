@@ -99,7 +99,8 @@ class KotlinPart {
 		
 		var dlg: TestDialog = ContextInjectionFactory.make(TestDialog::class.java, context)
 		if (dlg.open() != Dialog.OK){
-			println("not ok")
+			return
+			
 		}
 		
 		
